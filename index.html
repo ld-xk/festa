@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Video Festa</title>
+  <script>
+    // Qui puoi cambiare facilmente il nome del file
+    const videoFile = "Golden.mp4";
+    window.addEventListener("DOMContentLoaded", () => {
+      const source = document.getElementById("videoSource");
+      source.src = videoFile;
+      document.getElementById("videoPlayer").load();
+    });
+  </script>
+</head>
+<body>
+  <h1>Benvenuti alla festa!</h1>
+  <video id="videoPlayer" width="720" controls autoplay muted>
+    <source id="videoSource" src="" type="video/mp4">
+    Il tuo browser non supporta il video.
+  </video>
+</body>
+</html>
