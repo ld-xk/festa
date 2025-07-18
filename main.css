@@ -26,7 +26,7 @@
      font-family: 'ShrekAlt', serif;
     }
 .no-shrek {
-  font-family: sans-serif; /* o un altro font che preferisci */
+  font-family: sans-serif !important;; 
 }
     video {
       width: 90%;
