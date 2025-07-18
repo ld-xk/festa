@@ -25,7 +25,9 @@
      font-size: clamp(2.5rem, 8vw, 5rem);
      font-family: 'ShrekAlt', serif;
     }
-
+.no-shrek {
+  font-family: sans-serif; /* o un altro font che preferisci */
+}
     video {
       width: 90%;
       max-width: 720px;
